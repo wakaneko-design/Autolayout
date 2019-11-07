@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qaJ-jL-Ibh">
+            <objects>
+                <viewController id="2Dw-yj-qHn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2va-kR-23T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cebu.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="iQR-5V-M1n">
+                                <rect key="frame" x="-162.5" y="0.0" width="700" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cebu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cig-js-kpg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="354"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="354" id="4Ug-2v-Nuu"/>
+                                    <constraint firstAttribute="width" constant="375" id="8uD-uX-wy7"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="iLQ-A3-Eb7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="sEN-Kd-JWJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jiO-F4-6nO" firstAttribute="trailing" secondItem="Cig-js-kpg" secondAttribute="trailing" id="23o-95-UBx"/>
+                            <constraint firstAttribute="bottom" secondItem="iQR-5V-M1n" secondAttribute="bottom" id="4zW-1g-Oh6"/>
+                            <constraint firstItem="Cig-js-kpg" firstAttribute="centerY" secondItem="2va-kR-23T" secondAttribute="centerY" id="Be3-GH-FEE"/>
+                            <constraint firstItem="iQR-5V-M1n" firstAttribute="centerY" secondItem="2va-kR-23T" secondAttribute="centerY" id="FYk-NC-UdD"/>
+                            <constraint firstItem="iQR-5V-M1n" firstAttribute="centerX" secondItem="2va-kR-23T" secondAttribute="centerX" id="Lkv-wM-YWp"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Cig-js-kpg" secondAttribute="bottom" constant="313" id="Nb8-Fb-59S"/>
+                            <constraint firstItem="Cig-js-kpg" firstAttribute="top" secondItem="jiO-F4-6nO" secondAttribute="top" id="R45-3z-8tt"/>
+                            <constraint firstItem="Cig-js-kpg" firstAttribute="centerX" secondItem="2va-kR-23T" secondAttribute="centerX" id="ZMn-tQ-By0"/>
+                            <constraint firstItem="Cig-js-kpg" firstAttribute="leading" secondItem="jiO-F4-6nO" secondAttribute="leading" id="jD4-cs-sdN"/>
+                            <constraint firstItem="Cig-js-kpg" firstAttribute="centerY" secondItem="2va-kR-23T" secondAttribute="centerY" id="tF3-On-Gts"/>
+                            <constraint firstItem="Cig-js-kpg" firstAttribute="centerX" secondItem="2va-kR-23T" secondAttribute="centerX" id="ysE-Gh-VGQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jiO-F4-6nO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AnO-yH-i4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124" y="1342.5787106446778"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cebu.jpeg" width="700" height="469"/>
+    </resources>
+</document>
